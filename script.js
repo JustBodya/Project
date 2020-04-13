@@ -5,3 +5,7 @@ $('#slideShow').carousel({
     keyboard: true,
 
 })
+$(function () {
+    $('[data-toggle="tooltip').tooltip()
+
+})
