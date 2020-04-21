@@ -14,8 +14,30 @@
 </head>
 
 <body>
-
-    <div class="container">
+    <nav class="navbar navbar-dark bg-danger navbar-expand-sm navbar sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="img2/q1.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Мир животных
+        </a>
+        <ul class="navbar-nav mr-auto text-white">
+            <li class="nav-item align-top">
+                <button class="btn btn-danger"><a href="#carousel" class="nav-link align-top">Скролл к
+                        карусели</a></button>
+            </li>
+            <li class="nav-item align-top">
+                <button class="btn btn-danger"><a href="#kartochki" class="nav-link align-top">Скролл к
+                        карточкам</a></button>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+            <a href="#" class="navbar-brand">
+                <input type="text" class="form-control" placeholder="Поиск">
+            </a>
+            <button type="submit" class="btn btn-danger">
+                Поиск
+            </button>
+    </nav>
+    <div class="container" id="carousel">
         <div class="row">
             <div class="col-sm">
                 <div id="slideShow" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -50,9 +72,9 @@
         </div>
     </div>
     <center>
-        <div class="container-fluid">
+        <div class="container-fluid" id="kartochki">
             <div class="row justify-content-between">
-                <div class="col">
+                <div class="col" id="q1">
                     <div class="card text-white bg-danger" style="width: 18rem;">
                         <div class="card-header">
                             <h5 class="card-title">Панда</h5>
@@ -69,30 +91,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card text-white bg-danger" style="width: 18rem;">
+                <div class="col" id="q2">
+                    <div class="card text-white bg-primary" style="width: 18rem;">
                         <div class="card-header">
                             <h5 class="card-title">Козёл</h5>
                         </div>
                         <img class="card-img-top" src="img1/2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-text">Домашнее животное, вид парнокопытных из рода горные козлы</h5>
-                            <button type="button" class="btn btn-success" data-toggle="tooltip" data-html="true"
+                            <button type="button" class="btn btn-info" data-toggle="tooltip" data-html="true"
                                 data-placement="top" title="Рога самца горного козла в длину достигают около 1 м.">
                                 Факты
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card text-white bg-danger" style="width: 18rem;">
+                <div class="col" id="q3">
+                    <div class="card text-white bg-success" style="width: 18rem;">
                         <div class="card-header">
                             <h5 class="card-title">Белка</h5>
                         </div>
                         <img class="card-img-top" src="img1/3.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-text">Обычная белка имеет длинное тело, пушистый хвост и длинные ушки</h5>
-                            <button type="button" class="btn btn-success" data-toggle="tooltip" data-html="true"
+                            <button type="button" class="btn btn-danger" data-toggle=" tooltip" data-html="true"
                                 data-placement="top"
                                 title="Белке достаточно примерно три тысячи орехов, чтобы питаться всю зиму">
                                 Факты
@@ -102,7 +124,7 @@
                 </div>
             </div>
             <div class="row justify-content-between">
-                <div class="col">
+                <div class="col" id="q4">
                     <div class="card text-white bg-danger" style="width: 18rem;">
                         <div class="card-header">
                             <h5 class="card-title">Лошадь</h5>
@@ -119,8 +141,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card text-white bg-danger" style="width: 18rem;">
+                <div class="col" id="q5">
+                    <div class="card text-white bg-primary" style="width: 18rem;">
                         <div class="card-header">
                             <h5 class="card-title">Леопард</h5>
                         </div>
@@ -128,7 +150,7 @@
                         <div class="card-body">
                             <h5 class="card-text">Леопард – красочная, грациозная, невероятно величественная
                                 кошка</h5>
-                            <button type="button" class="btn btn-success" data-toggle="tooltip" data-html="true"
+                            <button type="button" class="btn btn-info" data-toggle="tooltip" data-html="true"
                                 data-placement="top"
                                 title="Леопард – единственный представитель кошачьих, который затягивает и поедает свою добычу на дереве">
                                 Факты
@@ -136,15 +158,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card text-white bg-danger" style="width: 18rem;">
+                <div class="col" id="q6">
+                    <div class="card text-white bg-success" style="width: 18rem;">
                         <div class="card-header">
                             <h5 class="card-title">Кот с ножом</h5>
                         </div>
                         <img class="card-img-top" src="img1/6.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-text">Просто кот с ножом</h5>
-                            <button type="button" class="btn btn-success" data-toggle="tooltip" data-html="true"
+                            <button type="button" class="btn btn-danger" data-toggle="tooltip" data-html="true"
                                 data-placement="top" title="Он взади вас">
                                 Факты
                             </button>
